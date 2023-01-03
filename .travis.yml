@@ -14,8 +14,8 @@ jobs:
      sbom:
        on:
          branch: 'main'
-         pr: true
-       # condition: true
+         pr: false
+       # condition: false
        run_phase: "after_success" # 
        output_format: "spdx-json" # 
        output_dir: "/test" # 
