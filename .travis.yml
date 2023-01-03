@@ -17,6 +17,6 @@ jobs:
          pr: false
        # condition: false
        run_phase: "after_failure" # 
-       output_format: "spdx-json" # 
+       output_format: "cyclonedx-xml" # 
        output_dir: "/test" # 
        input_dir: "/go" #
