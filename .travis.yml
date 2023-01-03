@@ -14,8 +14,8 @@ jobs:
      sbom:
        on:
          branch: 'main'
-         pr: false
-       # condition: false
+         pr: true
+       # condition: true
        run_phase: "after_failure" # 
        output_format: "cyclonedx-xml" # 
        output_dir: "/test" # 
