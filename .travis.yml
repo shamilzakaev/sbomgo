@@ -5,7 +5,7 @@ jobs:
  include: 
  - name: “test” # existing functionality
    script: # existing functionality
-    - go -version
+    - go version
  - name: “sbom”
    script: # existing functionality
      - cd go
