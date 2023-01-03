@@ -9,7 +9,7 @@ jobs:
  - name: “sbom”
    script: # existing functionality
      - cd go
-     - go mod download
+     - go version
    addons:
      sbom:
        on:
